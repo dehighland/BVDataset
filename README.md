@@ -15,10 +15,6 @@ The data was collected by a physician at Catawba Women's Center in Hickory, Nort
 
 The 30 patients were 20-62 year olds belonging to four racial groups: white/non-Hispanic (15 patients), white/Hispanic (4 patients), African American (9), and Asian (2 patients). According to the NuSwab test, 15 patients were BV positive (NuSwab result more than 2), 12 were BV negative (NuSwab result less than 2), and 3 had indeterminate test results (NuSwab result equal to 2). This demographic and diagnostic information is summarized in the figures below:
 
-[![Racial Demographics of Dataset](https://github.com/dehighland/BV_Diagnostics/blob/7510a33836b619a7828fc05f1c2957ece9c7fcf1/IMAGES/DataAge.png)]
-
-[![Age Demographics of Dataset](https://github.com/dehighland/BV_Diagnostics/blob/7510a33836b619a7828fc05f1c2957ece9c7fcf1/IMAGES/DataRace.png)]
-
 ![DataRace](https://github.com/dehighland/BV_Diagnostics/blob/7510a33836b619a7828fc05f1c2957ece9c7fcf1/IMAGES/DataRace.png))
 ![DataAge](https://github.com/dehighland/BV_Diagnostics/blob/7510a33836b619a7828fc05f1c2957ece9c7fcf1/IMAGES/DataAge.png))
 
