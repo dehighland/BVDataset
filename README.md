@@ -1,6 +1,3 @@
-                           
-![Header Image of Clue Cell and Normal Epithelial Cell](https://github.com/dehighland/BV_Diagnostics/blob/c2f6f97c897e4434a357e9a65258337b32d2bfd3/IMAGES/DataCrop.png)
- 
 # Overview
 
 This page describes and links to a dataset of 30 patients tested for bacterial vaginosis (BV). For each patient, we provide slide images of vaginal microbiota that have corresponding labels of clue cell status as determined by a physician alongside Amsel criteria test values and the patient's diagnosis.
