@@ -1,4 +1,5 @@
-# Overview
+# Amsel Criteria Based Computer Vision for Diagnosing Bacterial Vaginosis
+## Clue Cell Images and Amsel Criteria Values with Bacterial Vaginosis Diagnostic Labels
 
 This page describes and links to a dataset of 30 patients tested for bacterial vaginosis (BV). For each patient, we provide slide images of vaginal microbiota that have corresponding labels of clue cell status as determined by a physician alongside Amsel criteria test values and the patient's diagnosis.
 
@@ -14,9 +15,9 @@ The data was collected by a physician at Catawba Women's Center in Hickory, Nort
 
 The 30 patients were 20-62 year olds belonging to four racial groups: white/non-Hispanic (15 patients), white/Hispanic (4 patients), African American (9), and Asian (2 patients). According to the NuSwab test, 15 patients were BV positive, 12 were BV negative, and 3 had indeterminate test results. This demographic information is summarized in the figure below:
 
-[![Racial Demographics of Dataset](https://github.com/dehighland/BV_Diagnostics/blob/7510a33836b619a7828fc05f1c2957ece9c7fcf1/IMAGES/DataAge.png)](https://dehighland.github.io/BV_Diagnostics/) 
+[![Racial Demographics of Dataset](https://github.com/dehighland/BV_Diagnostics/blob/7510a33836b619a7828fc05f1c2957ece9c7fcf1/IMAGES/DataAge.png)]
 
-[![Age Demographics of Dataset](https://github.com/dehighland/BV_Diagnostics/blob/7510a33836b619a7828fc05f1c2957ece9c7fcf1/IMAGES/DataRace.png)](https://dehighland.github.io/BV_Diagnostics/)
+[![Age Demographics of Dataset](https://github.com/dehighland/BV_Diagnostics/blob/7510a33836b619a7828fc05f1c2957ece9c7fcf1/IMAGES/DataRace.png)]
 
 The epithelial cells of patient discharge samples were imaged with a Swiftcam 18 Megapixel camera attached to a Swift SW380T 40X-2500X at a power of 40x. Across 30 patients, 3,692 cell images were captured. These 3,692 cell images were subsequently cropped into 11,181 sub-images of individual vaginal flora and assigned a binary label of clue cell status by a physician.
 
