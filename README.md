@@ -1,5 +1,5 @@
                            
-![Awesome ReadME](https://github.com/pottekkat/awesome-readme/raw/master/header.png)
+![alt text](https://github.com/dehighland/BV_Diagnostics/blob/main/DataCrop.png)
  
 # Amsel Criteria based computer vision for diagnosing bacterial vaginosis
 
