@@ -6,9 +6,7 @@ This page describes and links to a dataset of 30 patients tested for bacterial v
 
 Utilize the following citation if using this dataset:
 
-```
-Highland and Zhou, Amsel criteria based computer vision for diagnosing bacterial vaginosis, Elsevier Smart Health 2024, https://doi.org/10.1016/j.smhl.2024.100501 
-```
+> Highland and Zhou, Amsel criteria based computer vision for diagnosing bacterial vaginosis, Elsevier Smart Health 2024, https://doi.org/10.1016/j.smhl.2024.100501 
 
 # Data Collection
 
