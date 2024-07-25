@@ -29,7 +29,7 @@ Our paper used the 10,024 sub-images belonging to patients with non-indeterminat
 In addition to the permission to share this data from Catawba Women's Center, two data folders are listed when visiting the site: *Raw Images* and *Data*.
 
 ### Raw Images
-*Raw Images* are the unlabeled 3,692 epithelial cell images initally captured. The *Raw Images* folder contains each of these images as .pngs with the name format "Raw_Patient_(Patient Number) _img_ (Image Number for this patient)". An example of a raw image and its name is displayed below:
+*Raw Images* are the unlabeled 3,692 epithelial cell images initally captured. The [*Raw Images* folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Raw%20Images?csf=1&web=1&e=TMbyQs) contains each of these images as .pngs with the name format "Raw_Patient_(Patient Number) _img_ (Image Number for this patient)". An example of a raw image and its name is displayed below:
 
 ![RawImageExample.png](./IMAGES/RawImageExample.png)
 
@@ -37,7 +37,7 @@ As seen in the above image, the raw images can contain many different cells with
 
 ### Data
 
-The *Data* folder on the site linked at the start of this section contains files for 30 patients each with the following contents:
+The [*Data* folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Data?csf=1&web=1&e=RYYzM1) on the site linked at the start of this section contains files for 30 patients each with the following contents:
 
 
 | Patient File Key | Description |
