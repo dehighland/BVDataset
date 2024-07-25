@@ -28,11 +28,23 @@ Our paper used the 10,024 sub-images belonging to patients with non-indeterminat
 
 In addition to the permission to share this data from Catawba Women's Center, two data folders are listed when visiting the site: *Raw Images* and *Data*.
 
-*Raw Images* are the unlabeled 3,692 epithelial cell images initally captured. The *Raw Images* folder contains each of these images as .pngs with the name format "Raw_Patient_(Patient Number)_img_(Image Number for this patient)". An example of a raw image and its name is displayed below:
+### Raw Images
+*Raw Images* are the unlabeled 3,692 epithelial cell images initally captured. The *Raw Images* folder contains each of these images as .pngs with the name format "Raw_Patient_(Patient Number) _img_ (Image Number for this patient)". An example of a raw image and its name is displayed below:
 
 ![RawImageExample](https://github.com/dehighland/BV_Diagnostics/blob/1d4ad2de0904a78a50d914cfbb5541607e16788c/IMAGES/RawImageExample.png)
 
-As seen in the above image, the raw images can contain many different cells with significantly different presentations. Therefore, we chose to crop out individual cells for use in our paper, as depicted below.
+As seen in the above image, the raw images can contain many different cells with significantly different presentations. Therefore, we chose to crop out individual cells and label those cropped images for use in our paper. We include the raw images to allow others more freedom with how they use this dataset.
 
-![DataCrop](https://github.com/dehighland/BV_Diagnostics/blob/1d4ad2de0904a78a50d914cfbb5541607e16788c/IMAGES/DataCrop.png)
+### Data
 
+The *Data* folder on the site linked at the start of this section contains files for 30 patients each with the following contents:
+
+
+| Patient File Key | Description |
+| ----- | ----------- |
+| Images  | array of vaginal mircobiome slide images |
+| ClueCells | array of binary labels (0 = non-clue cell / 1 = clue cell) with same order as "Images" |
+| pH | pH value of vaginal discharge sample |
+| Whiff | Binary value for whiff test result (0 = negative / 1 = positive) |
+| Molecular | NuSwab test result (0-1 = negative, 2 = indeterminate, 3-6 = positive) |
+| Diagnosis | Binary value for diagnosis per NuSwab (0 = negative / 1 = positive) |
