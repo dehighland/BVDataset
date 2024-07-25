@@ -24,18 +24,18 @@ Our paper used the 10,024 sub-images belonging to patients with non-indeterminat
 ![DatasetSummaryTable.PNG](./IMAGES/DatasetSummaryTable.PNG)
 
 ## Data Set
-[The data set itself is stored here.](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland?csf=1&web=1&e=MHCp8Y)
+[The dataset itself is stored here.](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland?csf=1&web=1&e=MHCp8Y)
 
 In addition to the permission to share this data from Catawba Women's Center, two data folders are listed when visiting the site: [Raw Images](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Raw%20Images?csf=1&web=1&e=TMbyQs) and [Data](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Data?csf=1&web=1&e=RYYzM1).
 
-### Raw Images
+#### Raw Images Folder
 The [Raw Images folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Raw%20Images?csf=1&web=1&e=TMbyQs) contains the unlabeled 3,692 epithelial cell images initally captured. These images are .pngs with the name format "Raw_Patient_(Patient Number)_ img _(Image Number for this patient)". An example of a raw image and its name is displayed below:
 
 ![RawImageExample.png](./IMAGES/RawImageExample.png)
 
 As seen in the above image, the raw images can contain many different cells with significantly different presentations. Therefore, we chose to crop out individual cells and label those cropped images for use in our paper. We include the raw images to allow others more freedom with how they use this dataset.
 
-### Data
+#### Data Folder
 
 The [Data folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Data?csf=1&web=1&e=RYYzM1) on the [site](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland?csf=1&web=1&e=MHCp8Y) contains 30 data files that can be loaded by the **scipy.io.loadmat** function from the scipy library. Once these files are loaded, a six keys allows access to six items, which are described in the table below:
 
