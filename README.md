@@ -21,7 +21,7 @@ Our paper used the 10,024 sub-images belonging to patients with non-indeterminat
 ![DatasetSummaryTable.PNG](./IMAGES/DatasetSummaryTable.PNG)
 
 ## Data Set
-[The dataset itself is stored here.](https://wmedu-my.sharepoint.com/:f:/g/personal/gzhou_wm_edu/Em44U0Vl6RZAge4oKbcCbQ8BwGhf1P6Jsy7vJmIgaKfNEg?e=nom2Im)
+[The dataset itself is stored here.](https://wmedu-my.sharepoint.com/personal/gzhou_wm_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fgzhou%5Fwm%5Fedu%2FDocuments%2FHealthComp%2DDataSets%2FBVDataset%2DDanielHighland&ct=1721946996924&or=OWA%2DNT%2DMail&cid=14ba5ca8%2D0df3%2D2c59%2D4d99%2D4dab83f4710d&ga=1)
 
 In addition to the permission to share this data from Catawba Women's Center, two data folders are listed when visiting the site: [Raw Images](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Raw%20Images?csf=1&web=1&e=TMbyQs) and [Data](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Data?csf=1&web=1&e=RYYzM1).
 
