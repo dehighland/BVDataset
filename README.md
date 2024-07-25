@@ -68,7 +68,7 @@ This github also contains code used for [the paper cited at the top](https://nam
 
 ## Terms of Use for BV Dataset
 
-You need to read and agree to the following terms of use to download and use the BV dataset.
+By downloading and using the BV dataset, you are acknowledging that you have read and agree to the following terms of use.
 
 >`1. Definitions`
 >
@@ -91,6 +91,6 @@ You need to read and agree to the following terms of use to download and use the
 >
 >The College of William and Mary provides the BV Dataset "AS IS," without any warranty or promise of technical support, and disclaims any liability of any kind for any damages whatsoever resulting from use of the BV Dataset .
 >
->THE COLLLEGE OF WILLIAM AND MARY MAKES NO WARRANTIES, EXPRESS OR IMPLIED WITH RESPECT TO THE SIGNFI DATASET, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, WHICH ARE HEREBY EXPRESSLY DISCLAIMED.
+>THE COLLLEGE OF WILLIAM AND MARY MAKES NO WARRANTIES, EXPRESS OR IMPLIED WITH RESPECT TO THE BV DATASET, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, WHICH ARE HEREBY EXPRESSLY DISCLAIMED.
 >
 >Your acceptance and use of the BV Dataset binds you to the terms and conditions of this License as stated herein.
