@@ -1,4 +1,3 @@
 remote_theme: jekyll-theme-cayman
 title: Amsel Criteria Based Computer Vision for Diagnosing Bacterial Vaginosis
 description: Clue Cell Images and Amsel Criteria Values with Bacterial Vaginosis Diagnostic Labels
-image: ./IMAGES/DataCrop.png
