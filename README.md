@@ -1,6 +1,3 @@
-## Amsel Criteria Based Computer Vision for Diagnosing Bacterial Vaginosis
-## Clue Cell Images and Amsel Criteria Values with Bacterial Vaginosis Diagnostic Labels
-
 This page describes and links to a dataset of 30 patients tested for bacterial vaginosis (BV). For each patient, we provide slide images of vaginal microbiota that have corresponding labels of clue cell status as determined by a physician alongside Amsel criteria test values and the patient's diagnosis.
 
 ## Cite the Paper
@@ -51,3 +48,21 @@ The [Data folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Do
 Here is a figure describing the same structure, using Patient 22 as an example:
 
 ![DataAccessSummary.png](./IMAGES/DataAccessSummary.png)
+
+## Code
+
+This github also contains code used for [the paper cited at the top](https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fkwnsfk27.r.eu-west-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fauthors.elsevier.com%252Fsd%252Farticle%252FS2352-6483(24)00057-6%2F1%2F01020190dc25f1e6-82877439-3763-42ef-b0c7-68d21eeec47a-000000%2FAfySSFDScW4PWk2GapZV7oREkOk%3D383&data=05%7C02%7Cdehighland%40wm.edu%7C26c1d650eaa848726aaa08dcac0f69f8%7Cb93cbc3e661d40588693a897b924b8d7%7C0%7C0%7C638574429413867306%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=S3S4kgSZTiKC%2BUWNJFHn1pY16%2FoUgidw9FWVQ%2BRfFKs%3D&reserved=0). The purposes of each python file is listed below:
+
+| Python File | File Description |
+| ----- | ----------- |
+| [PullDataFromMat.py](./CODE/PullDataFromMat.py) | Loads data files and puts their contents in a folder |
+| [Data_Split.py](./CODE/Data_Split.py) | Splits data in main data folder between training and testing folders |
+| [Load_Data.py](./CODE/Load_Data.py) | Loads data into dataset objects that can be input into deep learning models |
+| [Model.py](./CODE/Model.py) | Compilation of all models used in the paper |
+| [Train_Image_Model.py](./CODE/Train_Image_Model.py) | The training and testing process of an image model |
+| [Train_CCDtoMD.py](./CODE/Train_CCDtoMD.py) | The training and testing process of a small MLP meant to convert clue cell detections into diagnoses |
+| [Train_2Way_Model.py](./CODE/Train_2Way_Model.py) | The training and testing process of a small MLP meant to combine two modalities (ex. "Images" and "Whiff") |
+| [Train_3Way_Model.py](./CODE/Train_3Way_Model.py) | The training and testing process of a small MLP meant to combine all modalities (ex. "Images", "pH", "Whiff") |
+| [Utilities.py](./CODE/Utilities.py) | A few functions used during training |
+| [Main.py](./CODE/Main.py) | Coordinates the above files and allows running experiments in batches |
+
