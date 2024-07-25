@@ -11,7 +11,7 @@ Utilize the following citation if using this dataset:
 
 ## Data Collection
 
-The data was collected by a physician at Catawba Women's Center in Hickory, North Carolina between August 2022 and February 2023. The physician targeted non-pregnant female patients who self-reported vaginal discharge but did not attempt self-treatment prior to assessment. After agreement to participate in the study, a few samples of the patient's discharge were collected to perform the Amsel criteria and to send out to an outside laboratory for a NuSwab test. Data was collected from 30 patients.
+The data was collected by a physician at Catawba Women's Center in Hickory, North Carolina between August 2022 and February 2023. The physician targeted non-pregnant female patients who self-reported vaginal discharge but did not attempt self-treatment prior to assessment. After agreement to participate in the study, a few samples of the patient's discharge were collected to perform the Amsel criteria and to send out to an outside laboratory for a NuSwab test. Data was collected from 30 patients who were deidentified and assigned anonymous.
 
 The 30 patients were 20-62 year olds belonging to four racial groups: white/non-Hispanic (15 patients), white/Hispanic (4 patients), African American (9), and Asian (2 patients). According to the NuSwab test, 15 patients were BV positive (NuSwab result more than 2), 12 were BV negative (NuSwab result less than 2), and 3 had indeterminate test results (NuSwab result equal to 2). This demographic and diagnostic information is summarized in the figures below:
 
@@ -26,10 +26,10 @@ Our paper used the 10,024 sub-images belonging to patients with non-indeterminat
 ## Data Set
 [The data set itself is stored here.](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland?csf=1&web=1&e=MHCp8Y)
 
-In addition to the permission to share this data from Catawba Women's Center, two data folders are listed when visiting the site: *Raw Images* and *Data*.
+In addition to the permission to share this data from Catawba Women's Center, two data folders are listed when visiting the site: [Raw Images](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Raw%20Images?csf=1&web=1&e=TMbyQs) and [Data](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Data?csf=1&web=1&e=RYYzM1).
 
 ### Raw Images
-*Raw Images* are the unlabeled 3,692 epithelial cell images initally captured. The [*Raw Images* folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Raw%20Images?csf=1&web=1&e=TMbyQs) contains each of these images as .pngs with the name format "Raw_Patient_(Patient Number) _img_ (Image Number for this patient)". An example of a raw image and its name is displayed below:
+The [Raw Images folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Raw%20Images?csf=1&web=1&e=TMbyQs) contains the unlabeled 3,692 epithelial cell images initally captured. These images are .pngs with the name format "Raw_Patient_(Patient Number)_ img _(Image Number for this patient)". An example of a raw image and its name is displayed below:
 
 ![RawImageExample.png](./IMAGES/RawImageExample.png)
 
@@ -37,14 +37,17 @@ As seen in the above image, the raw images can contain many different cells with
 
 ### Data
 
-The [*Data* folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Data?csf=1&web=1&e=RYYzM1) on the site linked at the start of this section contains files for 30 patients each with the following contents:
+The [*Data* folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Data?csf=1&web=1&e=RYYzM1) on the [site](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland?csf=1&web=1&e=MHCp8Y) contains 30 data files that can be loaded by the **scipy.io.loadmat** function from the scipy library. Once these files are loaded, a six keys allows access to six fields, which are described in the table below:
 
-
-| Patient File Key | Description |
+| Patient File Key | Field Description |
 | ----- | ----------- |
 | Images  | array of vaginal mircobiome slide images |
 | ClueCells | array of binary labels (0 = non-clue cell / 1 = clue cell) with same order as "Images" |
 | pH | pH value of vaginal discharge sample |
 | Whiff | Binary value for whiff test result (0 = negative / 1 = positive) |
 | Molecular | NuSwab test result (0-1 = negative, 2 = indeterminate, 3-6 = positive) |
-| Diagnosis | Binary value for diagnosis per NuSwab (0 = negative / 1 = positive) |
+| Diagnosis | Binary value for diagnosis per NuSwab (0 = negative / 1 = positive / NaN = Indeterminate) |
+
+Here is a figure describing the same structure, using Patient 22 as an example:
+
+![DataAccessSummary.png](./IMAGES/DataAccessSummary.png)
