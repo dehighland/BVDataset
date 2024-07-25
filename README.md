@@ -21,12 +21,12 @@ Our paper used the 10,024 sub-images belonging to patients with non-indeterminat
 ![DatasetSummaryTable.PNG](./IMAGES/DatasetSummaryTable.PNG)
 
 ## Data Set
-[The dataset itself is stored here.](https://wmedu-my.sharepoint.com/personal/gzhou_wm_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fgzhou%5Fwm%5Fedu%2FDocuments%2FHealthComp%2DDataSets%2FBVDataset%2DDanielHighland&ct=1721946996924&or=OWA%2DNT%2DMail&cid=14ba5ca8%2D0df3%2D2c59%2D4d99%2D4dab83f4710d&ga=1)
+[The dataset itself is stored here.](https://wmedu-my.sharepoint.com/:f:/g/personal/gzhou_wm_edu/Em44U0Vl6RZAge4oKbcCbQ8BwGhf1P6Jsy7vJmIgaKfNEg?e=nom2Im)
 
-In addition to the permission to share this data from Catawba Women's Center, two data folders are listed when visiting the site: [Raw Images](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Raw%20Images?csf=1&web=1&e=TMbyQs) and [Data](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Data?csf=1&web=1&e=RYYzM1).
+In addition to the permission to share this data from Catawba Women's Center, two data folders are listed when visiting the site: **Raw Images** and **Data**.
 
 #### Raw Images Folder
-The [Raw Images folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Raw%20Images?csf=1&web=1&e=TMbyQs) contains the unlabeled 3,692 epithelial cell images initally captured. These images are .pngs with the name format "Raw_Patient_(Patient Number)_ img _(Image Number for this patient)". An example of a raw image and its name is displayed below:
+The Raw Images folder contains the unlabeled 3,692 epithelial cell images initally captured. These images are .pngs with the name format "Raw_Patient_(Patient Number)_ img _(Image Number for this patient)". An example of a raw image and its name is displayed below:
 
 ![RawImageExample.png](./IMAGES/RawImageExample.png)
 
@@ -34,7 +34,7 @@ As seen in the above image, the raw images can contain many different cells with
 
 #### Data Folder
 
-The [Data folder](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland/Data?csf=1&web=1&e=RYYzM1) on the [site](https://wmedu-my.sharepoint.com/:f:/r/personal/gzhou_wm_edu/Documents/HealthComp-DataSets/BVDataset-DanielHighland?csf=1&web=1&e=MHCp8Y) contains 30 data files that can be loaded by the **scipy.io.loadmat** function from the scipy library. Once these files are loaded, a six keys allows access to six items, which are described in the table below:
+The Data folder on the [site](https://wmedu-my.sharepoint.com/:f:/g/personal/gzhou_wm_edu/Em44U0Vl6RZAge4oKbcCbQ8BwGhf1P6Jsy7vJmIgaKfNEg?e=nom2Im) contains 30 data files that can be loaded by the **scipy.io.loadmat** function from the scipy library. Once these files are loaded, a six keys allows access to six items, which are described in the table below:
 
 | Patient File Key | Item Description |
 | ----- | ----------- |
